@@ -1,0 +1,59 @@
+# Config file for your model.
+# Contains all the parameters for the model, including the regular parameters and HPs.
+
+name:
+  default: navier-stokes
+  type: str
+
+num_domain:
+  default: 1000
+  type: int
+
+learning_rate:
+  default: 0.001
+  type: float
+
+ratio: 
+  default: 0.66
+  type: float
+
+num_dense_layers:
+  default: 3
+  type: int
+
+num_dense_nodes:
+  default: 32
+  type: int
+
+num_residuals:
+  default: 1500
+  type: int
+
+rar_loops:
+  default: 40
+  type: int
+
+calls:
+  default: 30
+  type: int
+
+seed:
+  default: 1337
+  type: int
+
+rar_iterations:
+  default: 1000
+  type: int
+
+init_iterations:
+  default: 10000
+  type: int
+
+random_points:
+  default: 1000
+  type : int
+
+add_topk:
+  default: 10
+  type: int
+
